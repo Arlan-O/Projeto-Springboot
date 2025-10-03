@@ -1,6 +1,6 @@
 # API Rest com Spring Boot 
 
-![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
 ![Badge da Linguagem](https://img.shields.io/badge/linguagem-Java-blue)
 ![Badge do Framework](https://img.shields.io/badge/framework-Spring%20Boot%203-green)
 
@@ -22,33 +22,6 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 - **[Maven](https://maven.apache.org/)** para gerenciamento de dependências
 - **[H2 Database](https://www.h2database.com/html/main.html)** como banco de dados em memória para desenvolvimento
 - **[Postman](https://www.postman.com/)** para testes e documentação dos endpoints
-
----
-
-## 🚀 Como Começar
-
-Siga as instruções abaixo para executar o projeto em sua máquina local.
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em sua máquina:
-- [Git](https://git-scm.com)
-- [JDK 17 ou superior](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Maven](https://maven.apache.org/)
-- Uma IDE de sua preferência, como [IntelliJ IDEA](https://www.jetbrains.com/idea/) ou [VS Code](https://code.visualstudio.com/).
-
-### Clonando o Repositório
-
-```bash
-git clone [https://URL-DO-SEU-REPOSITORIO-AQUI.git](https://URL-DO-SEU-REPOSITORIO-AQUI.git)
-```
-
-### Executando a Aplicação
-
-1.  Abra o projeto na sua IDE.
-2.  Aguarde o Maven baixar todas as dependências do projeto.
-3.  Execute a classe principal `SenacApplication` que contém a anotação `@SpringBootApplication`.
-4.  A API estará disponível para ser acessada em `http://localhost:8080`.
 
 ---
 
@@ -221,5 +194,5 @@ http://localhost:8080/pacientes/9
 
 **Arlan Henrique Pires de Oliveira**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-PERFIL-AQUI/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arlan-oliveira-b80b2b322/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU-USUARIO-AQUI)
