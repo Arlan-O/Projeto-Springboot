@@ -20,6 +20,9 @@ import senac.api.senac.endereco.DadosEndereco;
         @NotBlank
         String cpf,
 
+        @NotBlank
+        Boolean status,
+
         @NotNull
         @Valid
         DadosEndereco endereco){}
