@@ -22,6 +22,7 @@ public class Paciente {
     private String email;
     private String telefone;
     private String cpf;
+    private Boolean status;
 
     @Embedded
     private Endereco endereco;
@@ -31,6 +32,7 @@ public class Paciente {
         this.email = dados.email();
         this.telefone = dados.telefone();
         this.cpf = dados.cpf();
+        this.status = dados.status();
         this.endereco = new Endereco(dados.endereco());
     }
 
@@ -46,28 +48,10 @@ public class Paciente {
         }
     }
 
-    public Long getId() {
-        return id;
+    public  void atualizarStatus(){
+            this.status = false;
     }
 
-    public String getNome() {
-        return nome;
-    }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public Endereco getEndereco() {
-        return endereco;
-    }
 
 }

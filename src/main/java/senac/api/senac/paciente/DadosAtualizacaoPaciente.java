@@ -11,6 +11,8 @@ public record DadosAtualizacaoPaciente(
 
         String telefone,
 
+        String status,
+
         DadosEndereco endereco
 ) {
 }
